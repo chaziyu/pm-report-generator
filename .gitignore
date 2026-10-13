@@ -1,0 +1,35 @@
+# Node
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.env
+
+# Workspace data
+workspace/
+workspace/datasets/
+
+# Private data & reports
+private_pm_reports/
+backend/tests/fixtures/private/
+*.tmp
+/doc/**/*.docx
+/doc/**/*.pdf
+
+# Local AI models & binaries
+models/
+*.gguf
+bin/llama/
+
+# OS files
+.DS_Store
+Thumbs.db
